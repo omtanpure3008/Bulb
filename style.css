@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 5vw 0;
+}
+
+button {
+    padding: .8vw 1.2vw;
+    font-size: 1vw;
+}
